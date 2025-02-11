@@ -238,14 +238,15 @@ default_floating_border pixel 1
 # Activate picom
 exec --no-startup-id picom --config ~/.config/picom.conf -b
 
-# Ventana activa (borde claro)
-client.focused           #d79921 #d79921 #ebdbb2 #d79921
+# Ventana activa (borde azul intenso)
+client.focused           #7e9cd8 #7e9cd8 #c8c093 #7e9cd8
 
 # Ventana inactiva (gris oscuro)
-client.unfocused         #282828 #282828 #928374 #282828
+client.unfocused         #1f2233 #1f2233 #717c7c #1f2233
 
 # Ventana inactiva dentro de un contenedor (gris medio)
-client.focused_inactive  #3c3836 #3c3836 #a89984 #3c3836
+client.focused_inactive  #2a2a37 #2a2a37 #859289 #2a2a37
 
-# Ventana urgente (rojo brillante)
-client.urgent           #cc241d #cc241d #fb4934 #cc241d
+# Ventana urgente (rojo vibrante)
+client.urgent           #e46876 #e46876 #ff5d62 #e46876
+

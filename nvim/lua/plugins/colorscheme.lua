@@ -1,8 +1,16 @@
 return {
-  -- add gruvbox
-  { "rebelot/kanagawa.nvim" },
+  {
+    "rebelot/kanagawa.nvim",
+    name = "kanagawa",
+    opts = {
+      transparent_background = true,
+      styles = {
+        sidebar = "transparent",
+        floats = "transparent",
+      },
+    },
+  },
 
-  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
