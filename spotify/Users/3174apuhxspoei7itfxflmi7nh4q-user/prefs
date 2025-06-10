@@ -1,0 +1,5 @@
+audio.play_bitrate_non_metered_migrated=true
+connect.dial_devices="[{\"address\":\"192.168.100.86\",\"app_state\":\"INSTALLED\",\"created_timestamp\":1748471650,\"device_id\":\"856f7473-7428-410e-82c3-f26743084bc2\",\"dial_location_url\":\"http://192.168.100.86:1695/\",\"display_name\":\"[LG] webOS TV LK5700PSC\",\"last_seen\":1748477173,\"manufacturer\":\"LG Electronics\",\"model_name\":\"49LK5700PSC\",\"product_cap\":\"\",\"public_ip\":\"2800:cd0:7514:5a00:d35:b4aa:7d4a:1b2c\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"44fe3b309c02\",\"port\":9,\"retries\":480}}]"
+connect.mdns_devices="[]"
+audio.play_bitrate_non_metered_enumeration=3
+audio.play_bitrate_enumeration=3
